@@ -6,7 +6,6 @@
 }
 
 .Card img{
-    width: 600px;
     height: 287px;
     border-radius: 20px;
     margin-right: 20px;
@@ -22,7 +21,6 @@
     background-color: rgba(1, 9, 28, 0.75);
     padding: 20px;
     border-radius: 20px;
-    width: 600px;
     height: 287px;
     text-align: justify;
 
@@ -91,6 +89,30 @@
     .Card p {
         font-size: 23px;
     }
+
+    .Card section{
+        width: 450px;
+    }
+    .Card img {
+        width: 450px;
+    }
+}
+
+@media only screen and (width: 540px) {
+    .Card section{
+        width: 230px;
+    }
+    .Card img {
+        width: 230px;
+    }
 }
 
 
+@media only screen and ( min-width: 1280px){
+    .Card section{
+        width: 600px;
+    }
+    .Card img {
+        width: 600px;
+    }
+}
