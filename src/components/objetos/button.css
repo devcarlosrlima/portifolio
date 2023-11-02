@@ -1,0 +1,78 @@
+.btnA{
+    background-color: #74FAc0;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    margin-top: 15px;
+    cursor: pointer;
+    color: black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+.btnA:hover{
+    color: aliceblue;
+    background-color: #0b9c5d;
+    transition-duration: 1s;
+
+
+}
+
+.btnB{
+    background-color: transparent ;
+    border-radius: 10px;
+    border: gray solid 1px;
+    font-weight: bolder;
+    margin-top: 15px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+}
+
+.btnC{
+    background-color: transparent ;
+    border-radius: 10px;
+    border: gray solid 1px;
+    font-weight: bolder;
+    margin-top: 15px;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+}
+
+.btnA:hover{
+    color: black;
+    background-color: #0b9c5d;
+    transform: translateY(-7px);
+    transition-duration: 1s;
+
+
+}
+
+.btnB:hover{
+    color: black;
+    background-color: #670b9c;
+    transition-duration: 0.8s;
+}
+
+
+.btnC:hover{
+    color: black;
+    background-color: #370bd3;
+    transition-duration: 0.8s;
+}
+
+
+@media only screen and (max-width: 280px){
+
+    .btnC{
+        font-size: 8px;
+        height: 45px;
+    }
+
+
+}
+
+
+   

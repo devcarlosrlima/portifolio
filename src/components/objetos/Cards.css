@@ -1,0 +1,96 @@
+.Card{
+    display: flex;
+    justify-content: center;
+    margin: 15px
+
+}
+
+.Card img{
+    width: 600px;
+    height: 287px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.Card img:hover{
+    transform: translateX(-10px);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.Card section{
+    background-color: rgba(1, 9, 28, 0.75);
+    padding: 20px;
+    border-radius: 20px;
+    width: 600px;
+    height: 287px;
+    text-align: justify;
+
+}
+
+.Card h3{
+    font-size: 25px;
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+   .Card section{
+    width: 330px;
+   }
+
+   .Card img{
+    width: 330px;
+   }
+}
+
+@media only screen and (min-width: 768px ){
+    .Card section{
+        width: 350px;
+       }
+    
+    .Card img{
+        width: 350px;
+    }
+
+    .Card p{
+        font-size: 23.5px;
+    }
+
+}
+
+@media only screen and (max-width: 600px){
+    .Card section{
+        width: 170px;
+    }
+
+    .Card img{
+        width: 170px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .Card section{
+        width: 120px;
+    }
+
+    .Card img{
+        width: 120px;
+    }
+    
+    .Card h3{
+        font-size: 15px;
+    }
+
+    .Card p{
+        font-size: 12px;
+    }
+}
+@media only screen and (width: 1024px){
+    .Card p {
+        font-size: 23px;
+    }
+}
+
+
