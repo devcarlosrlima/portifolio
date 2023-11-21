@@ -5,7 +5,7 @@ import ButtonC from './ButtonC'
 const Cards = ({tit, tec, des, repo, site, img}) => {
   return (
     <div className='Card'>
-        <a href={site} target='_blank'>
+        <a href={site} target='_blank' rel="noreferrer noopener">
             < img src={img}/>
         </a>
         <section>
