@@ -4,6 +4,7 @@ import Java from '../../assets/Image/Java.svg'
 import CSS from '../../assets/Image/CSS.svg'
 import react from '../../assets/Image/React.svg'
 import Html5 from '../../assets/Image/HTML5.svg'
+import TS from '../../assets/Image/TS.svg'
 
 const Skills = () => {
   return (
@@ -15,6 +16,7 @@ const Skills = () => {
         <img src={CSS} alt="" />
         <img src={react} alt="" />
         <img src={Html5} alt="" />
+        <img src={TS} alt="" />
       </div>
       
     </div>
