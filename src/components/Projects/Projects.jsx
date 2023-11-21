@@ -2,7 +2,7 @@ import React from 'react'
 import ButtonB from '../objetos/ButtonB'
 import './Projects.css'
 import Cards from '../objetos/Cards'
-import Markdown from '../imagem/MARKDOWN.png'
+import MovieList from '../imagem/MovieList.png'
 import CalculadoraJS from '../imagem/CalculadoraJS.png'
 
 const Projects = () => {
@@ -11,12 +11,12 @@ const Projects = () => {
       <h1>Projetos</h1>
        
       <Cards 
-      tit={'Markdown'} 
-      tec={'React.Js, CSS'}
-      des={'Projeto feito no curso FreeCodeCamp, para dominio de Framework'}
-      repo={'https://github.com/devcarlosrlima/Markdown.git'}
-      site={'https://frabjous-faloodeh-5df305.netlify.app/'} 
-      img={Markdown}/>
+      tit={'Movie List'} 
+      tec={'React.Js, Sass, API, Axios e JavaScript'}
+      des={'Projeto feito para aperfeiçoamento de habilidades e consumo de API'}
+      repo={'https://github.com/devcarlosrlima/MovieList.git'}
+      site={'https://movielistdnc.vercel.app/'} 
+      img={MovieList}/>
       <Cards 
       tit={'Calculadora JS'} 
       tec={'HTML, CSS, JavaScript'}
