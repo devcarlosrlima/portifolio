@@ -22,7 +22,7 @@ const Projects = () => {
       tec={'HTML, CSS, JavaScript'}
       des={'Projeto feito para certificado de JavaScript'}
       repo={'https://github.com/devcarlosrlima/Calculator-Js.git'}
-      site={'https://bucolic-belekoy-b6f865.netlify.app'} 
+      site={'https://calculator-js-fcc.vercel.app/'} 
       img={CalculadoraJS}/>
       
       <ButtonB link={'https://github.com/devcarlosrlima?tab=repositories'} text={'Acesse meu repositório completo!'}/>
