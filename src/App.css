@@ -3,9 +3,6 @@ body{
     color: white;
     height: 100%;
     width: 100%;
-    z-index: -1;
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Kanit', sans-serif;
 }
 
