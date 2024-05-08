@@ -35,3 +35,8 @@ Você pode me contatar através do formulário de contato no meu site ou pelos s
 
 - Email: dev.frontcarloslima@gmail.com
 - LinkedIn: [Meu Perfil](https://www.linkedin.com/in/devcarloslima/)
+
+
+## Imagens do test de performance do meu site
+
+![image](https://github.com/devcarlosrlima/portifolio/assets/136191341/18c00d17-547b-4a67-b22d-1fc7b3e5ac42)
