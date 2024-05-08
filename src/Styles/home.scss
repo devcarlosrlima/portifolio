@@ -1,0 +1,220 @@
+@use 'base';
+
+
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+  
+    .Home{
+       display: flex;
+       align-items: center ;
+       padding: 0 9%;
+      
+    }
+    
+    .presentation{
+        max-width: 60rem;
+
+        h1{
+            font-size: 5.6rem;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+        
+        .textAnimate{
+            position: relative;
+            width: 32.8rem;
+    
+            h3{
+                font-size: 3rem;
+                font-weight: 700;
+                color: transparent;
+                -webkit-text-stroke: .7px base.$main-color;
+                background-image: linear-gradient(base.$main-color, base.$main-color);
+                background-repeat: no-repeat;
+                -webkit-background-clip: text;
+                background-position: 0 0 ;
+                animation: homeBgText 6s linear infinite;
+                animation-delay: 2s;
+    
+            }
+        }
+
+        .textAnimate h3::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0;
+            height: 100%;
+            border-right: 2px solid base.$main-color;
+            z-index: -1;
+            animation: homeCursorText 6s linear infinite;
+            animation-delay: 2s;
+        }
+
+        p{
+            font-size: 1.6rem;
+            margin: 2rem 0 4rem;
+        }
+        
+
+        }
+    
+        .buttonPresentation{
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            width: 34.5rem;
+            height: 5rem;
+
+            .btn:nth-child(2) {
+                background: transparent;
+                color: base.$main-color;
+
+            
+            }
+
+           .btn:nth-child(2):hover{
+                color: base.$bg-color
+            }
+
+           .btn:nth-child(2)::before {
+               background: base.$main-color;
+            }
+    
+        }
+    
+    }
+
+
+
+    .btn{
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 15rem;
+        height: 100%;
+        background: base.$main-color;
+        border: .2rem solid base.$main-color;
+        border-radius: .8rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+        letter-spacing: .1rem;
+        color: base.$bg-color;
+        z-index: 1;
+        overflow: hidden;
+        transition: .5s;
+                        
+    }
+
+    .btn:hover {
+        color: base.$main-color;
+    }
+
+    .btn::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: base.$bg-color ;
+        z-index:-1;
+        transition: .5s;
+        
+    }
+
+    .btn:hover::before{
+        width:100%;
+       
+    }
+    
+
+
+.socialMedia {
+    margin-top: 80px;
+    bottom: 4rem;
+    width: 170px;
+    display: flex;
+    justify-content: space-between;
+    a{
+        position: relative;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: .2rem solid  base.$main-color;
+        border-radius: 50%;
+        z-index: 1;
+        overflow: hidden;
+        transition: .5s;
+    }
+}
+
+.socialMedia a::before{
+    content: '';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: base.$main-color;
+    z-index: -1;
+    transition: .5s;
+
+}
+
+.socialMedia a:hover::before{
+    width: 100%;
+
+}
+
+@keyframes homeBgText {
+    0%,
+    10%,
+    100% {
+        background-position: -33rem 0;
+    }
+
+    65%,
+    85% {
+        background-position: 0 0;
+    }
+
+}
+
+@keyframes homeCursorText {
+    0%,
+    10%,
+    100% {
+        width: 0;
+    }
+
+    65%,
+    78%,
+    85% {
+        width: 100%;
+        opacity: 1;
+    }
+
+    75%,
+    81% {
+        opacity: 0;
+    }
+}
+
+@media (width <= 992px) {
+
+    .buttonPresentation{
+        justify-content: space-evenly !important;
+        right: 2rem;
+       .btn{
+        width: 13rem;
+        
+       }
+    }
+}
