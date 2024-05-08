@@ -6,7 +6,7 @@
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-   background-image: url("../assets/about-bg.avif");
+    background-image: url("../assets/about-bg.avif");
     background-size: cover ;
     padding-bottom: 6rem;
 
@@ -83,7 +83,7 @@
 
 @media (width <= 992px) {
     .about {
-        position: fixed;
+        
         padding: 50px;
 
         .heading{
