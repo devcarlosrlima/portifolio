@@ -26,9 +26,9 @@ const Home = () => {
           </div>
 
           <div className="socialMedia">
-           <a href=""><img src="insta.svg" alt="" /></a>
-           <a href=""><img src="linkedin.svg" alt="" /></a>
-           <a href=""><img src="github.svg" alt="" /></a>
+           <a href="https://www.instagram.com/carlosrlimadev/"><img src="insta.svg" alt="" /></a>
+           <a href="https://www.linkedin.com/in/devcarloslima/"><img src="linkedin.svg" alt="" /></a>
+           <a href="https://github.com/devcarlosrlima/"><img src="github.svg" alt="" /></a>
           </div>
           
     </section>      
