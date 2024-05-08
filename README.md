@@ -21,7 +21,7 @@ Este site foi criado para servir como meu portfólio online. Ele contém informa
 
 ## Como Contribuir
 
-Se você encontrar algum problema ou tiver sugestões de melhorias para o meu site, sinta-se à vontade para abrir uma issue neste repositório. Contribuições via pull request são bem-vindas!
+Se você encontrar algum problema ou tiver sugestões de melhorias para o meu site, sinta-se à vontade para abrir uma issue neste repositório.
 
 ## Links Úteis
 
