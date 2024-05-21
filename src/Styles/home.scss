@@ -221,8 +221,14 @@ section{
     }
 }
 
-@media (width <= 418px) {
+@media (width <= 510px) {
     section{
         width:119%;
+    }
+}
+
+@media (width <= 418) {
+    section{
+        width: 133%;
     }
 }
