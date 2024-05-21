@@ -22,7 +22,7 @@
     
     .education-row {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         gap: 5rem;
 
         .education-column {
@@ -99,5 +99,14 @@
     }
 }
 
+@media (width <= 992px) {
+.education{
 
+    .education-row {
+        flex-wrap: wrap;
+    }
+} 
+        
+
+}
 
